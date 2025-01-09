@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #green{
+            background-color: green;
+            border-radius: 8px;
+        }
+        #red{
+            background-color: red;
+            border-radius: 8px;
+         
+        }
+        #orange{
+            background-color:orange;
+            border-radius: 8px;
+        }
+        #random{
+            background-color: #fdf5e6;
+            border-radius: 8px;
+          
+        }
+        button{
+            width: 100px;
+            height: 50px;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>colour flipper</h1>
+    <button id="green" onclick="setcolor('green')">green</button>
+    <button id="red" onclick="setcolor('red')">red</button>
+    <button id="orange" onclick="setcolor('orange')">orange</button>
+    <button id="random" onclick="randomcolor()">random</button>
+    <script src="color.js"></script>
+</body>
+</html>
